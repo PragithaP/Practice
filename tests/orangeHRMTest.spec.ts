@@ -1,6 +1,5 @@
 import { expect,test } from "@playwright/test";
 import { LoginPage } from "../pages/loginPage";
-//import { before } from "node:test";
 import data from "../testData/data.json";
 
 let loginPage:LoginPage;
